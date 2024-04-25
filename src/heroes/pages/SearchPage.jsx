@@ -35,7 +35,7 @@ export const SearchPage = () => {
                     <h4>Searching</h4>
                     <hr />
 
-                    <form onSubmit={onSearchSubmit}>
+                    <form aria-label="formulario" onSubmit={onSearchSubmit}>
                         <input type="text"
                             placeholder="Search a hero"
                             className="form-control"
